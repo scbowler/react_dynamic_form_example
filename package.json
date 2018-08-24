@@ -1,7 +1,7 @@
 {
-  "name": "react_starter",
+  "name": "react_dynamic_form_example",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "Example of dynamically adding form inputs in ReactJS with ReduxJS and Redux Form",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
@@ -12,7 +12,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/scbowler/react_dynamic_form_example.git"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
