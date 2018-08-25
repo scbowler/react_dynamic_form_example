@@ -1,0 +1,6 @@
+.row form.col {
+    background-color: #f1f1f5;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(100, 100, 100, .2);
+    padding: 20px;
+}
