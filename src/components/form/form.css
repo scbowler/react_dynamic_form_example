@@ -1,6 +1,45 @@
 .row form.col {
-    background-color: #f1f1f5;
+    background-color: #F1F1F5;
     border-radius: 20px;
     box-shadow: 3px 3px 4px rgba(100, 100, 100, .2);
     padding: 20px;
+}
+
+.field-container {
+    position: relative;
+}
+
+.field-container .remove {
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 45%;
+    color: #A5A5A5;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+    display: flex;
+}
+
+.field-container .remove i {
+    margin: auto;
+}
+
+.field-container .remove:hover {
+    background-color: #EF9A9A;
+    color: #FFF;
+}
+
+.add-email {
+    display: inline-block;
+    color: #AFAFAF;
+    cursor: pointer;
+}
+
+.add-email:hover {
+    color: #6D6D6D;
+}
+
+.add-email i {
+    font-size: 3.0em;
 }
