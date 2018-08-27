@@ -10,15 +10,15 @@
 }
 
 .field-container .remove {
-    position: absolute;
     border-radius: 50%;
-    right: 10px;
     bottom: 45%;
     color: #A5A5A5;
     cursor: pointer;
-    height: 36px;
-    width: 36px;
     display: flex;
+    height: 36px;
+    position: absolute;
+    right: 10px;
+    width: 36px;
 }
 
 .field-container .remove i {
@@ -31,9 +31,9 @@
 }
 
 .add-email {
-    display: inline-block;
     color: #AFAFAF;
     cursor: pointer;
+    display: inline-block;
 }
 
 .add-email:hover {
